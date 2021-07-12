@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Open+Sans&family=Roboto&display=swap');
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+header .container {  
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    
+}
+.logo {
+    border: 10px;
+    display: flex;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+
+
+header nav{
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+}
+header nav a{
+    display: flex;
+    color:hsl(60, 20%, 99%);
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    
+    
+
+}
+
+.filme-destque {
+    background: linear-gradient(rgba(0,0,0,.58), rgba(0,0,0,.58)100%), url(../imgfilmes/filme4.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    text-align:justify;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    padding: 40px;
+    
+    
+}
+
+
+.titulo {
+    margin-top: 40px;
+    font-size: 57px;
+    font-family: 'Alfa Slab One', cursive;
+    
+    
+    
+}
+.descricao {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.button {
+    
+    margin-right: 10px;
+    border-radius: 5%;
+    padding: 10px;
+    
+    border: none;
+    background-color: rgb(221, 236, 10);
+    
+    
+    
+}
+.botao {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
